@@ -31,7 +31,37 @@ body {
   padding: 14px 20px;
   text-decoration: none;
   font-family: Murder;
-  font-size: 23px
+  font-size: 23px;
+  transition: 0.3s ease-in;
+}
+.home:hover {
+  color: #EEF1BC;
+  animation: navOpen 1s ease-in-out;
+}
+@keyframes navOpen {
+  0% {
+    display: none;
+    opacity: 0;
+    max-height: 0;
+  }
+  1% {
+    display: block;
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+    max-height: 396px;
+  }
+  from {
+    opacity: 0;
+    transform: translateY(-5px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  
+  }
+  
 }
 .navigation {
   position: fixed;
@@ -50,6 +80,12 @@ body {
   text-align: right;
   padding: 14px 20px;
   text-decoration: none;
+  transition: 0.3s all ease-out; 
+
+}
+.nav-item:hover {
+  color: #8A0707;
+  
 }
 #newspaper-nav {
   font-family: Newspaper;
@@ -76,7 +112,19 @@ body {
   font-size: 76px;
   color: #EEF1BC;
   padding-top: 10rem;
-  text-shadow: 5px 5px 10px #8A0707
+  text-shadow: 5px 5px 10px #8A0707;
+  animation-name: floating;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in-out;
+  margin-left: 30px;
+  margin-top: 2px;
+}
+
+@keyframes floating {
+  0% { transform: translate(0,  -50px); }
+  /* 50%  { transform: translate(0, -15px); } */
+  100%   { transform: translate(0, 0px); }   
 }
 .p-subhead {
   display: flex;
@@ -138,6 +186,15 @@ body {
   border-radius: 50%;
   margin-left: 30rem;
   box-shadow: 0 5px 9px 0 rgba(0, 0, 0, 0.2), 0 7px 25px 0 rgba(0, 0, 0, 0.19);
+  animation-name: floating-image;
+  animation-iteration-count: infinite;
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out;
+}
+@keyframes floating-image {
+  0% { transform: translate(0,  0px); }
+  50%  { transform: translate(0, 7px); }
+  100%   { transform: translate(0, -0px); }   
 }
 .author1 {
   padding: 0rem;
