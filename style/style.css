@@ -1,0 +1,103 @@
+/* 
+  .navbar a:hover {
+    background-color: #8A0707;
+  }
+ */
+/* Fonts */
+@font-face {
+  font-family: MurderMystery;
+  src: url(../assets/GolfClubHomicide-51azG.ttf);
+}
+@font-face {
+  font-family: Newspaper;
+  src: url(../assets/OldNewspaperTypes.ttf);
+}
+@font-face {
+  font-family: Murder;
+  src: url(../assets/The\ Black\ Festival\ -\ DEMO.ttf);
+}
+@font-face {
+  font-family: Diary;
+  src: url(../assets/AmaticSC-Bold.ttf);
+}
+/* Main */
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #212121;
+
+}
+
+/* Navbar */
+.home {
+  float: left;
+  display: block;
+  color: #8A0707;
+  text-align: right;
+  padding: 14px 20px;
+  text-decoration: none;
+  font-family: Murder;
+  font-size: 23px
+}
+.navbar {
+  float: fixed;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  overflow: hidden;
+  background-color: #212121;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.nav-item {
+  float: right;
+  display: block;
+  color: #E6E4DC;
+  text-align: right;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+#newspaper-nav {
+  font-family: Newspaper;
+  font-size: small;
+}
+#diary {
+  font-family: Diary;
+  font-size: 20px;
+  padding: 10px
+}
+.mt-12 {
+  margin-top: 10rem;
+}
+.p-title {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10rem;
+  font-family: Murder;
+  font-size: 76px;
+  color: white;
+
+}
+#point {
+  color: #212121;
+}
+#stickman {
+  max-width: 100%;
+  height: 100px;
+}
+.running {
+  float: right;
+}
+.resting {
+  float: left;
+}
+.walking {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
