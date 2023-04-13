@@ -8,20 +8,44 @@
 
     <link rel="stylesheet" href="style/style.css">
 </head>
-<body>
+<body class="body-rid"> 
         <!-- NAVIGATION START -->
-        <nav 
-        role="navigation"
-        aria-label="main navigation"
-        class="navigation">
-            <div class="main-navigation">
-                <a href="index.html" role="button" class="home"><strong>MURDER</strong></a>   
-                <a href="cover.html" role="button" class="nav-item">COVER</a>  
-                <a href="riddles.html" role="button" class="nav-item">RIDDLES</a>
-                <a href="diary.html" role="button" class="nav-item" id="diary"><strong>DIARY</strong></a>
-                <a href="newspaper.html" role="button" class="nav-item" id="newspaper-nav">NEWSPAPER</a>
+        <section class="hero">
+            <nav 
+            role="navigation"
+            aria-label="main navigation"
+            class="navigation">
+        
+                <div class="main-navigation">
+                    <a href="index.html" role="button" class="home"><strong>MURDER</strong></a>   
+                    <a href="cover.html" role="button" class="nav-item">COVER</a>  
+                    <a href="riddles.html" role="button" class="nav-item">RIDDLES</a>
+                    <a href="diary.html" role="button" class="nav-item" id="diary"><strong>DIARY</strong></a>
+                    <a href="newspaper.html" role="button" class="nav-item" id="newspaper-nav">NEWSPAPER</a>
+                    
+                </div>
+            </nav>
+    </section>
+    <section class="riddles">
+        <div class="box-around">
+            <!-- <img src="assets/icons8-magnifier-96.png" alt="magnifier" class="img-rid"> -->
+            <div class="inputs-riddles">
+                <p class="riddles-paragraph-game">1. Question number one &nbsp;&nbsp;<input type="text" maxlength="10" class="input-text" id="q1" placeholder="Write Answer"></p>
+                <p class="riddles-paragraph-game">2. Question number one &nbsp;&nbsp;<input type="text" maxlength="10" class="input-text" id="q2" placeholder="Write Answer"></p>
+                <p class="riddles-paragraph-game">3. Question number one &nbsp;&nbsp;<input type="text" maxlength="10" class="input-text" id="q3" placeholder="Write Answer"></p>
+                <p class="riddles-paragraph-game">4. Question number one &nbsp;&nbsp;<input type="text" maxlength="10" class="input-text" id="q4" placeholder="Write Answer"></p>
+                <p class="riddles-paragraph-game">5. Question number one &nbsp;&nbsp;<input type="text" maxlength="10" class="input-text" id="q5" placeholder="Write Answer"></p>
+                <p class="riddles-paragraph-game">6. Question number one &nbsp;&nbsp;<input type="text" maxlength="10" class="input-text" id="q6" placeholder="Write Answer"></p>
+                <p class="riddles-paragraph-game">7. Question number one &nbsp;&nbsp;<input type="text" maxlength="10" class="input-text" id="q7" placeholder="Write Answer"></p>
+                <p class="riddles-paragraph-game">8. Question number one &nbsp;&nbsp;<input type="text" maxlength="10" class="input-text" id="q8" placeholder="Write Answer"></p>
+                <p class="riddles-paragraph-game">9. Question number one &nbsp;&nbsp;<input type="text" maxlength="10" class="input-text" id="q9" placeholder="Write Answer"></p>
+                <p class="riddles-paragraph-game">10. Question number one &nbsp;&nbsp;<input type="text" maxlength="10" class="input-text" id="q10" placeholder="Write Answer"></p>
             </div>
-        </nav>
+        </div>
+        <div class="div-button">
+        <button class="reveal-btn" id="validate-btn">Validate Answers <span></span></button> &nbsp; &nbsp; &nbsp;
+        <button class="reveal-btn" id="show-btn">Show Answers <span></span></button></div>
+    </section>
         <!-- NAVGIATION END -->
     <!-- FOOTER -->
     <footer class="footer">
