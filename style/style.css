@@ -89,7 +89,7 @@ body {
   color: #8A0707;
   
 }
-#newspaper-nav {
+#songs-nav {
   font-family: Newspaper;
   font-size: small;
 }
@@ -247,19 +247,8 @@ body {
 /* LANDING PAGE ^ */
 
 /* NEWSPAPER PAGE */
-.img-newspaper {
-  width: 50%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 10rem;
-  margin-bottom: 10rem;
-  border-radius: 2%;
-  animation-name: floating;
-  animation-duration: 2s;
-  animation-iteration-count: 1;
-  animation-timing-function: ease-in-out;
-}
+
+
 /* RIDDLES PAGE */
 .box-around {
   padding-top: 5rem;
