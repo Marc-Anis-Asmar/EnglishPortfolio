@@ -261,10 +261,9 @@ body {
 }
 .inputs-riddles {
   border: 2px solid #8A0707;
-
   border-radius: 10px;
   box-sizing: border-box;
-  height: 500px;
+  height: 850px;
   width: 400px;
   padding-left: 2rem;
   padding-right: 1rem;
@@ -293,6 +292,7 @@ body {
   display: flex;
   margin-top: 1rem;
   padding: auto; 
+  margin-bottom: 15rem;
 }
 input[type="text"] {
   background-color: transparent;
@@ -300,6 +300,9 @@ input[type="text"] {
   border-right: none;
   border-top: none;
   border-left: none;
+  color:#EEF1BC;
+  font-family: Diary;
+  font-size: 20px
 }
 input[type="text"]:focus {
   border-bottom: 2px solid #8A0707;
