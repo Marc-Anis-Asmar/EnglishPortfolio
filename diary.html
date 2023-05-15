@@ -4,50 +4,60 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Word Is Murder</title>
+    <script src="popup.js"></script>
     <link rel="stylesheet" href="style/style.css">
     <link rel="icon" href="assets/murder.png" type="image/png">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css">
 
-    <title>The Word Is Murder</title>
 </head>
-<body class="testing">
+<body> 
+<div class="pcontainer">
         <!-- NAVIGATION START -->
-        <nav 
-        role="navigation"
-        aria-label="main navigation"
-        class="navigation">
-            <div class="main-navigation">
-                <a href="index.html" role="button" class="home"><strong>MURDER</strong></a>   
-                <a href="cover.html" role="button" class="nav-item">COVER</a>  
-                <a href="riddles.html" role="button" class="nav-item">RIDDLES</a>
-                <a href="diary.html" role="button" class="nav-item" id="diary"><strong>DIARY</strong></a>
-                <a href="songs.html" role="button" class="nav-item" id="songs-nav">SONGS</a>
-                <script src="testing.js"></script>
-            </div>
-        </nav>
-        <!-- NAVGIATION END -->
+    <section class="hero">
+            <nav 
+            role="navigation"
+            aria-label="main navigation"
+            class="navigation">
         
-            <div class="container">
-                <img src="./images/Close-36.png" class="close" />
-                <h1>heading</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti eaque quae illum inventore laborum quas,
-                    expedita quaerat officia voluptates distinctio blanditiis ad impedit voluptas ipsa quo esse tempore. Iste,
-                    officia?</p>
-                    <button type="button">click me</button>
-            </div>
-        <!-- FOOTER -->
-        <!-- <footer class="footer">
-            <div class="div-footer">
-                <div class="small-icon">
-                    <a href="https://github.com/Marc-Anis-Asmar/EnglishPortfolio" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <div class="main-navigation">
+                    <a href="index.html" role="button" class="home"><strong>MURDER</strong></a>   
+                    <a href="cover.html" role="button" class="nav-item">COVER</a>  
+                    <a href="riddles.html" role="button" class="nav-item">RIDDLES</a>
+                    <a href="diary.html" role="button" class="nav-item" id="diary"><strong>DIARY</strong></a>
+                    <a href="songs.html" role="button" class="nav-item" id="songs-nav">SONGS</a>
+                    
                 </div>
+            </nav>
+    </section>
+
+        <!-- NAVGIATION END -->
+    <!-- FOOTER -->
+    
+<footer class="footer">
+            <div class="div-footer">
+                
                 <p class="p-footer">
                     <span class="title-footer"><strong> The Word Is Murder </strong></span> 
                     <br />
                      <span id="cp-year"> © 2023 Copyright. All Rights
                     Reserved.</span>
                 </p>
+                <div class="small-icon">
+                    <a href="https://github.com/Marc-Anis-Asmar/EnglishPortfolio" target="_blank" class="github"><i class="fab fa-github"></i></a>
+                </div>
             </div>
-        </footer> -->
+</footer>
+</div>
+<div class="popup-container">
+    <div class="popup-content">
+      <div class="popup-text">
+        <h2>Invading personal space!</h2>
+        <p>You just entered the diary page, here is the diary of my favorite character.</p>
+        <p>"Diary....".</p>
+        <button class="popup-close-btn">Got it!</button>
+      </div>
+    </div>
+  </div>
 </body>
 </html>

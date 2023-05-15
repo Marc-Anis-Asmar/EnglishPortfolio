@@ -5,39 +5,59 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Word Is Murder</title>
+    <script src="popup.js"></script>
     <link rel="stylesheet" href="style/style.css">
+    <link rel="icon" href="assets/murder.png" type="image/png">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css">
 
 </head>
-<body>
-            <!-- NAVIGATION START -->
+<body> 
+<div class="pcontainer">
+        <!-- NAVIGATION START -->
+    <section class="hero">
             <nav 
             role="navigation"
             aria-label="main navigation"
             class="navigation">
+        
                 <div class="main-navigation">
                     <a href="index.html" role="button" class="home"><strong>MURDER</strong></a>   
                     <a href="cover.html" role="button" class="nav-item">COVER</a>  
                     <a href="riddles.html" role="button" class="nav-item">RIDDLES</a>
                     <a href="diary.html" role="button" class="nav-item" id="diary"><strong>DIARY</strong></a>
-                    <a href="songs.html" role="button" class="nav-item" id="songs-nav">SONG</a>
+                    <a href="songs.html" role="button" class="nav-item" id="songs-nav">SONGS</a>
+                    
                 </div>
             </nav>
-            <!-- NAVGIATION END -->
-            <!-- FOOTER -->
-            <footer class="footer">
-                <div class="div-footer">
-                    <div class="small-icon">
-                        <a href="https://github.com/Marc-Anis-Asmar/EnglishPortfolio" target="_blank"><i class="fa-brands fa-github"></i></a>
-                    </div>
-                    <p class="p-footer">
-                        <span class="title-footer"><strong> The Word Is Murder </strong></span> 
-                        <br />
-                         <span id="cp-year"> © 2023 Copyright. All Rights
-                        Reserved.</span>
-                    </p>
-                </div>
-            </footer>
+    </section>
 
+        <!-- NAVGIATION END -->
+    <!-- FOOTER -->
+    
+<footer class="footer">
+            <div class="div-footer">
+                
+                <p class="p-footer">
+                    <span class="title-footer"><strong> The Word Is Murder </strong></span> 
+                    <br />
+                     <span id="cp-year"> © 2023 Copyright. All Rights
+                    Reserved.</span>
+                </p>
+                <div class="small-icon">
+                    <a href="https://github.com/Marc-Anis-Asmar/EnglishPortfolio" target="_blank" class="github"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+</footer>
+</div>
+<div class="popup-container">
+    <div class="popup-content">
+      <div class="popup-text">
+        <h2>What about a new cover page?</h2>
+        <p>You just entered the extension page, here is a new cover design for the book.</p>
+        <p>"Cover blablablabla....".</p>
+        <button class="popup-close-btn">Got it!</button>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
