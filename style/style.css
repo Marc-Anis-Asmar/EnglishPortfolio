@@ -208,9 +208,12 @@ body {
 /* Footer */
 .footer {
   background-color: #212121 !important;
-  margin-bottom: 0;
-  padding-bottom: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 0;
   position: relative;
+  width: 100%; 
+  
 }
 .div-footer {
   /* display: flex;
@@ -246,7 +249,7 @@ body {
 
 /* LANDING PAGE ^ */
 
-/* NEWSPAPER PAGE */
+/* SONGS PAGE */
 
 
 /* RIDDLES PAGE */
@@ -294,6 +297,9 @@ body {
   padding: auto; 
   margin-bottom: 15rem;
 }
+.question{ 
+  margin-top: 1.5rem;
+}
 input[type="text"] {
   background-color: transparent;
   outline: none;
@@ -320,4 +326,167 @@ input[type="text"]:focus {
   z-index: -2;
   display: flex;
   float: left !important;
+};
+.correct {
+  color: #588157;
+  display: inline;
 }
+.incorrect {
+  color: #c1121f;
+}
+.correct-answer {
+  color: green;
+  font-size: 16px;
+  margin-left: 10px;
+  display: none;
+}
+.incorrect-answer {
+  color: red;
+  font-size: 16px;
+  margin-left: 10px;
+  display: none;
+}
+.inputs-riddles{
+  margin-top: 1rem;
+  margin-bottom: 10rem;
+}
+.button {
+  margin-top: 2rem;
+}
+.show{
+  display: inline;
+  color: green
+}
+.hide{
+  display: none;
+}
+/* CSS */
+
+/* CSS */
+#validate-button {
+  background-color: #fbeee0;
+  border: 2px solid #422800;
+  border-radius: 30px;
+  box-shadow: #422800 4px 4px 0 0;
+  color: #422800;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 12px;
+  padding: 0 18px;
+  line-height: 30px;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  font-family: Newspaper;
+}
+
+#validate-button:hover {
+  background-color: #588157;
+}
+
+#validate-button:active {
+  box-shadow: #422800 2px 2px 0 0;
+  transform: translate(2px, 2px);
+}
+
+@media (min-width: 768px) {
+  #validate-button {
+    min-width: 60px;
+    padding: 0 25px;
+  }
+}
+#show-button {
+  background-color: #fbeee0;
+  border: 2px solid #422800;
+  border-radius: 30px;
+  box-shadow: #422800 4px 4px 0 0;
+  color: #422800;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 12px;
+  padding: 0 18px;
+  line-height: 30px;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  font-family: Newspaper;
+}
+
+#show-button:hover {
+  background-color: #c1121f;
+}
+
+#show-button:active {
+  box-shadow: #422800 2px 2px 0 0;
+  transform: translate(2px, 2px);
+}
+
+@media (min-width: 768px) {
+  #show-button {
+    min-width: 60px;
+    padding: 0 25px;
+  }
+}
+
+
+/* POPUP BUTTON OPEN CLOSE */
+.popup-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.6);
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup-content {
+  width: 80%;
+  max-width: 600px;
+  background-color: #212121;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  position: relative;
+  z-index: 10000;
+  border-color: #e5be5b;
+  border: 1px solid #e5be5b;
+}
+
+.popup-text {
+  color: #EEF1BC;
+  font-family: Newspaper;
+  /* font-family: Diary; */
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.popup-close-btn {
+  background-color: #8A0707;
+  color: #212121;
+  font-family: Newspaper;
+  font-size: 14px;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}
+
+.popup-close-btn:hover {
+  opacity: 0.8;
+}
+
+.blur {
+  filter: blur(5px);
+  pointer-events: none;
+}
+/* POPUP END */
