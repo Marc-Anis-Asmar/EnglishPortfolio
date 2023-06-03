@@ -9,7 +9,7 @@
         answer6: "motive",
         answer7: "evidence",
         answer8: "pernicious",
-        answer9: "witness",
+        answer9: "clandestine",
         answer10: "interrogation"
     };
     
