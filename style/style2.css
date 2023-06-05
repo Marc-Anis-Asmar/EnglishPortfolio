@@ -130,3 +130,53 @@
     padding: 1rem;
     margin-bottom: 2rem;
   }
+
+  /* START OF SONGS */
+.pall {
+  margin-top: 8rem;
+  font-family: Mollas;
+}
+.lyrics {
+  display: inline-block;
+  background-color: #212121 !important;
+}
+.spara {
+  display: inline-block;
+  margin-right: 3rem;
+  color: #e5be5b;
+  font-size: 17px;
+}
+.lyrp {
+  display: grid; 
+  grid-template-columns: auto auto;
+  padding: 1rem
+}
+.songs {
+  display: flex;
+  justify-content: center;
+  color: #c1121f;
+  font-size: 25px;
+  font-family: Diary;
+}
+.songsp{
+  margin-right: 2rem;
+  text-shadow: 7px 4px 6px #8A0707;
+}
+.audio {
+  display: flex;
+  justify-content: right !important;
+  margin-right: 2rem; 
+  background-color: #212121 ;
+  /* width: 150px;
+  height: 50px; */
+}
+audio::-webkit-media-controls-panel {
+  size: 10px;
+}
+.songsb {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1440' height='544' preserveAspectRatio='none' viewBox='0 0 1440 544'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1036%26quot%3b)' fill='none'%3e%3crect width='1440' height='544' x='0' y='0' fill='rgba(33%2c 33%2c 33%2c 1)'%3e%3c/rect%3e%3cpath d='M0%2c561.956C106.722%2c553.221%2c221.482%2c539.622%2c300.011%2c466.827C375.039%2c397.278%2c359.241%2c276.399%2c406.137%2c185.476C456.5%2c87.832%2c597.906%2c25.015%2c584.105%2c-83.982C570.363%2c-192.517%2c418.391%2c-217.819%2c344.821%2c-298.789C273.767%2c-376.99%2c263.726%2c-523.401%2c161.295%2c-549.321C58.036%2c-575.45%2c-27.052%2c-464.404%2c-122.451%2c-417.03C-199.11%2c-378.962%2c-281.401%2c-356.4%2c-344.232%2c-298.279C-412.44%2c-235.184%2c-462.494%2c-157.94%2c-496.16%2c-71.337C-537.202%2c34.241%2c-589.653%2c146.33%2c-559.516%2c255.523C-528.107%2c369.324%2c-436.868%2c461.953%2c-333.324%2c518.662C-233.024%2c573.594%2c-113.976%2c571.284%2c0%2c561.956' fill='%231a1a1a'%3e%3c/path%3e%3cpath d='M1440 1002.076C1527.121 987.71 1608.29 966.206 1690.29 933.4590000000001 1791.283 893.126 1924.815 884.796 1975.107 788.375 2025.147 692.436 1934.542 581.639 1930.185 473.522 1925.121 347.83799999999997 2013.034 211.60399999999998 1947.539 104.21499999999997 1882.6109999999999-2.244000000000028 1737.708-38.09299999999996 1613.27-46.10500000000002 1500.256-53.38199999999995 1407.656 31.910999999999945 1298.598 62.43000000000001 1187.58 93.49700000000001 1038.902 44.06900000000002 967.528 134.60000000000002 895.46 226.01100000000002 975.5609999999999 360.36 971.982 476.709 968.9169999999999 576.331 920.397 672.915 948.0219999999999 768.679 977.746 871.719 1033.483 979.819 1130.375 1025.785 1225.828 1071.068 1335.758 1019.265 1440 1002.076' fill='%23282828'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1036'%3e%3crect width='1440' height='544' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+}
+
+
+
+  /* END OF SONGS */

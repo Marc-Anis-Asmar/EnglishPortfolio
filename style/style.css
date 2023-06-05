@@ -4,6 +4,14 @@
   src: url(../assets/GolfClubHomicide-51azG.ttf);
 }
 @font-face {
+  font-family: Alverata;
+  src: url(../assets/AlverataIrregularBl.ttf);
+}
+@font-face {
+  font-family: Mollas;
+  src: url(../assets/Mollas-Regular.ttf);
+}
+@font-face {
   font-family: Newspaper;
   src: url(../assets/OldNewspaperTypes.ttf);
 }
