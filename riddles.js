@@ -8,8 +8,8 @@
         answer5: "victim",
         answer6: "motive",
         answer7: "evidence",
-        answer8: "pernicious",
-        answer9: "clandestine",
+        answer8: "jealous",
+        answer9: "witness",
         answer10: "interrogation"
     };
     

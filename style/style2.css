@@ -178,6 +178,9 @@
     margin-right: 14rem;
     text-align: left;
   }
+  .oblique {
+    font-style: oblique;
+  }
   .intro {
     margin-top: 7rem;
     color: #e5be5b;
@@ -243,6 +246,9 @@
     border-bottom: 2px solid #8A0707;
     padding: 1rem;
     margin-bottom: 2rem;
+  }
+  .cpa {
+    padding: 1rem;
   }
 
   /* START OF SONGS */
