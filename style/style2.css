@@ -124,6 +124,120 @@
     z-index: -3;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
   }
+
+    .left-div {
+      float: left;
+      width: 50%;
+    } 
+
+  .right-div {
+    float: right ;
+    width: 50%;
+  }
+
+  .hidden {
+    display: none;
+  }
+  .main {
+    margin-top: 10rem;
+  }
+
+  .container {
+    position: relative;
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 4rem;
+  }
+
+  .image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+
+  .overlay {
+    position: absolute;
+    top: 10%;
+    left: 23%;
+    padding: 10px;
+  }
+
+  .text {
+    color: #212121;
+    font-size: 1.9vw;
+    font-weight: bold;
+    font-family: Diarys;
+    max-width: 36%;
+  }
+  .text2 {
+    color: #212121;
+    font-size: 1.9vw;
+    font-weight: bold;
+    font-family: Diarys;
+    max-width: 36%;
+    margin-right: 14rem;
+    text-align: left;
+  }
+  .intro {
+    margin-top: 7rem;
+    color: #e5be5b;
+    font-family: Mollas;
+  }
+  .underlined {
+    /*   background: red; */
+      position: relative;
+    }
+  .underline-mask:after {
+      content: '';
+      position: absolute;
+      top: 95%;
+      width: 150%;
+      aspect-ratio: 3 / 1;
+      left: 50%;
+      transform: translate(-50%, 0);
+      border-radius: 50%;
+      border: 6px solid hsl(280 80% 50%);
+      /* Use a conic gradient mask to hide and show the bits you want */
+      --spread: 140deg;
+      --start: 290deg;
+      mask: conic-gradient(from var(--start), white 0 var(--spread), transparent var(--spread));
+  }
+    
+    
+  .underline-overflow {
+      display: inline-block;
+      /* A little extra padding and overflow hidden   */
+      overflow: hidden;
+      padding-bottom: clamp(1rem, 2vmin, 2rem);
+  }
+  .underline-overflow:after {
+      content: '';
+      position: absolute;
+      top: 100%;
+      height: 150%;
+      aspect-ratio: 2.5 / 1;
+      left: 50%;
+      transform: translate(-50%, -10%);
+      border-radius: 50%;
+      border: 6px solid hsl(10 80% 50%);
+  }
+    
+  .underline-clip:after {
+      content: '';
+      position: absolute;
+      top: 95%;
+      width: 150%;
+      aspect-ratio: 3 / 1;
+      left: 50%;
+      transform: translate(-50%, 0);
+      border-radius: 50%;
+      border: 3.5px solid #c1121f;
+      /* Use a clip-path to hide and show the bits you want */
+      clip-path: polygon(0 0, 50% 50%, 100% 0);
+  }
+
+
+
   /* DIARY END */
   .cpa1 {
     border-bottom: 2px solid #8A0707;

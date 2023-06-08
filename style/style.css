@@ -4,6 +4,10 @@
   src: url(../assets/GolfClubHomicide-51azG.ttf);
 }
 @font-face {
+  font-family: Diarys;
+  src: url(../assets/HelloKetta-d99oX.ttf);
+}
+@font-face {
   font-family: Alverata;
   src: url(../assets/AlverataIrregularBl.ttf);
 }
@@ -169,8 +173,9 @@ body {
 /* Content Landing Page */
 .author{
   color: #1a2c57;
-  font-family: Newspaper;
-  text-shadow: 3px 3px 2px #212121;
+  font-family: Diary;
+  font-size: 30px;
+  text-shadow: 2px 2px 1px #212121;
 }
 .author1 {
   font-size: 23px !important;
@@ -261,10 +266,6 @@ body {
 }
 
 /* LANDING PAGE ^ */
-
-/* SONGS PAGE */
-
-
 /* RIDDLES PAGE */
 .svg-riddles {
   z-index: -1;
