@@ -1,3 +1,8 @@
+/* 
+  Hello Miss White!
+  I can't even understand my code anymore here, but it is how the website looks like.
+*/
+
 /* Fonts */
 @font-face {
   font-family: MurderMystery;
@@ -514,6 +519,7 @@ input[type="text"]:focus {
 .cpa {
   border: 2px solid #8A0707;
   padding: 10px;
+  margin-left: 1rem;
   display: inline-block;
 }
 .cimg-t {

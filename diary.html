@@ -1,3 +1,9 @@
+<!-- 
+  Hello Miss White!
+  This is the diary page for the website, you can check diary.js to see how the buttons work and change the paragaph on click
+  This code is very messy but somehow works!
+ -->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -46,6 +52,7 @@
          <img src="assets/backgrounddiary.png" alt="If you see this text please contact me" class="image">
 
   <div class="overlay">
+  
         <div class="left-div text" id="div1">
             <p>June 11th, 2011 <br>
               Dear Diary, <br>
@@ -54,9 +61,10 @@
               So, I ask my question again: will I regret my quick decision? <br>
               Horowitz
               </p>
+             
           </div>
           <div class="right-div text" id="div2">
-            <p>June 19th, 2011 <br>
+             <p>June 19th, 2011 <br>
               Dear Diary, <br>
               I think I just lost my only chance to work with Spielberg. <br>
               I was very excited about this day. I have been waiting for weeks and counting hours for the phone call from Steven Spielberg's office. I had the opportunity to discuss the <span class="oblique">Tintin</span> script's first draft with him and Peter Jackson. I also knew the place of the meeting very well; it was a hotel. How lucky! Everything was going as planned; I got into my script and was happier than ever. However, it lasted only a short time. Steven Spielberg changed his mind, he changed the books of the film, he changed the whole ambiance of the room; no more <span class="oblique">Tintin</span>, it was now <span class="oblique">The Seven Crystal Balls</span> . As I thought it could not get any worse, Hawthorne walked into the room, waiting for me to attend the funeral. He found me and interrupted the most important meeting I had. How selfish he is! Hawthorne then convinced Spielberg and Jackson to make me attend the funeral of Diana Cawper. <br>
@@ -95,13 +103,17 @@
               Horowitz
             </p>
           </div>
+      
+          
         
-          <button onclick="showNext()" class="">Next</button>
-          <button onclick="showPrevious()" class="">Previous</button>
-        
-          <script src="diary.js"></script>
+          
       
             </div>
+          <div class="buttons">
+            <button onclick="showPrevious()" class="dbtn left button-28">Previous</button>  
+            <button onclick="showNext()" class="dbtn right button-28">Next</button>
+          </div>
+          <script src="diary.js"></script>
         </div></div>
         <p class="cpa1">.</p>
     <!-- FOOTER -->
