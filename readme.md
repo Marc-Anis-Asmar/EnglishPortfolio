@@ -1,11 +1,12 @@
-English Portfolio 2023
+## English Portfolio 2023 ##
 
 # Copyright
 
-Even tho this website is under the MIT License 2023, please, do NOT copy and paste this project if you are doing your English Portfolio for 2024
+Even though this website is under the MIT License 2023, please, do NOT copy and paste this project if you are doing your English Portfolio for 2024
 
 Use this repository as a model for your own project.
 
-# Grade
+# Code
 
-I got 105% on the final grade.
+Code is messy but it is a bit managed 
+
